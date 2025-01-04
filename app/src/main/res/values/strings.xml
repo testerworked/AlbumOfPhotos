@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AlbumOfPhotos</string>
+    <string name="photo_view_start">Начать просмотр</string>
+    <string name="photo_view_end">Закрыть приложение</string>
+    <string name="photo_view_next">Следующее фото</string>
+    <string name="hello_message">Вас приветствует альбом любимых фотографий</string>
 </resources>
