@@ -37,6 +37,7 @@ class PhotoActivity : AppCompatActivity() {
         val imageView: ImageView = findViewById(R.id.imageViewPhoto)
         val nextPhotoButton: Button = findViewById(R.id.buttonNextPhoto)
 
+        imageView.clipToOutline = true
         imageView.setImageResource(photos[currentPhotoIndex])
 
         nextPhotoButton.setOnClickListener {

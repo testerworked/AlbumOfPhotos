@@ -8,10 +8,13 @@
     tools:context=".PhotoActivity">
 
     <ImageView
+        android:layout_margin="10dp"
         android:id="@+id/imageViewPhoto"
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:adjustViewBounds="true"
+        android:background="@drawable/round_outline"
+        android:scaleType="center"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
