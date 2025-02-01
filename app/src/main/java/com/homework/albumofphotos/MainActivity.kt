@@ -23,9 +23,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PhotoActivity::class.java)
             startActivity(intent)
         }
-
     }
-
-
-
 }
